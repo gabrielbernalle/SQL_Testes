@@ -1,0 +1,16 @@
+/* 
+SELECT DISTINCT coluna1,coluna2
+FROM tabela
+*/
+
+SELECT FirstName
+FROM Person.Person
+
+SELECT DISTINCT FirstName
+FROM Person.Person
+
+/* QUANTOS SOBRENOMES ÚNICOS TEMOS EM NOSSA TABELA PERSON.PERSON? */
+
+SELECT DISTINCT LastName
+From Person.Person
+
